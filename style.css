@@ -99,7 +99,7 @@ nav ul{
     width: 100vw;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url('banner.jpeg');
+    background-image: url('img/banner.jpeg');
     position: relative;
     background-color: rgba(0, 0, 0, 0.459);
     background-position: center;
