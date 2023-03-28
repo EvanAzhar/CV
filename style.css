@@ -23,8 +23,8 @@ nav{
     top: 0;
     left: 0;
     box-shadow: 0px 0px 10px rgb(42, 42, 42), 0 0px 5px black;
+    transition: all 0.5s;
 }
-
 nav ul{
     display: flex;
     list-style: none;
@@ -178,27 +178,34 @@ main section{
 }
 
 .content-container{
-    height: 800px;
     width: 100vw;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .cont-cont{
     width: 90%;
     height: 80%;
-    margin: 80px auto;
+
 }
 .title{
     text-align: center;
-    margin: 50px 0 0 0;
 }
 .profile-container{
-    font-size: 2vw;
-    height: 500px;
-    background-color: blue;
+    font-size: 1.8vw;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    width: 80%;
 }
 
+.sub-title{
+    text-align: center;
+    margin : 10px;
+    font-size: 2vw;
+}
 .table-profile{
-    width: 70%;
 }
 
 /* education */
@@ -210,12 +217,11 @@ main section{
 }
 
 /* list skill */
-.skill-container{
-    height: 700px;
-}
 .list-skill{
     display: flex;
-    margin-top: 50px;
+    margin-top: 10px;
+    width: 80%;
+    justify-content: center;
 }
 .list-skill figure{
     display: flex;
@@ -225,8 +231,9 @@ main section{
     margin: 1vw;
 }
 .list-skill figure figcaption{
-    font-size: 2vw;
+    font-size: 1.7vw;
     text-align:center;
+    width: 20vw;
 }
 .list-skill figure figcaption span{
     color: orange;
@@ -235,10 +242,18 @@ main section{
     width: 20vw;
     margin: 20px;
 }
+/* experience */
+.exp-container .cont-cont{
+    margin-top: 10px;
+    width: 70%;
 
+}
+.exp-container .p-date{
+    color: orange;
+}
 /* contact */
 .contact-container{
-    height: 500px;
+    height: 200px;
 }
 .contact{
     border-radius: 25px;
@@ -246,6 +261,7 @@ main section{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 .contact div{
     display: flex;

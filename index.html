@@ -23,11 +23,11 @@
             </div>
             <ul>
                 <li><a href="#" id="li-home" class="list-menu">Home</a></li>
-                <li><a href="#about-sct" class="list-menu">About Me</a></li>
-                <li><a href="#skill-sct" class="list-menu">Skill</a></li>
-                <li><a href="#exp-sct" class="list-menu">Experience</a></li>
-                <li><a href="#hobby-sct" class="list-menu">Hobby</a></li>
-                <li><a href="#contact-sct" class="list-menu">Contact Me</a></li>
+                <li><a href="#about-sct" class="list-menu">Tentang Saya</a></li>
+                <li><a href="#skill-sct" class="list-menu">Kemampuan</a></li>
+                <li><a href="#exp-sct" class="list-menu">Pengalaman</a></li>
+                <li><a href="#hobby-sct" class="list-menu">Hobi</a></li>
+                <li><a href="#contact-sct" class="list-menu">Kontak Saya</a></li>
             </ul>
             <div class="menu-toggle">
                 <a><i class='bx bx-menu'></i></a>
@@ -47,11 +47,15 @@
                     </div>
                 </div>
             </div>
-            <div class="content-container" id="about-sct">
-                <div class="cont-cont profile-container">
-                    <h1 class="title">About Me</h1>
-                    <div class="profile">
-                        <h2>Profile</h2>
+            <section class="content-container" id="about-sct">
+                <div>
+                    <h1 class="title">Tentang Saya</h1>
+                </div>  
+                <div class="profile-container">
+                    <div class="table-profile-container">
+                        <div>
+                            <h2 class="sub-title">Profile</h2>
+                        </div>
                         <table border="0" class="table-profile">
                             <tr>
                                 <td>Nama</td>
@@ -74,63 +78,90 @@
                                 <td> : Belum Menikah</td>
                             </tr>
                         </table>
-                   
                     </div>
-                    <br>
                     <div class="education">
-                    <h2>Education</h2>
-                    <ul class="edu-ul">
-                        <li class="tahun-pendidikan">2011-2017</li>
-                        <li>SD Negeri Pandeglang 9</li>
-                        <br>
-                        <li class="tahun-pendidikan">2017-2020</li>
-                        <li>SMP Negeri 1 Pandeglang</li>					<br>
-                        <li class="tahun-pendidikan">2020-2023</li>
-                        <li>SMK Negeri 1 Pandeglang</li>
-                    </ul>
-                    </div>
+                        <div>
+                            <h2 class="sub-title">Education</h2>
+                        </div>
+                        <div>
+                            <ul class="edu-ul">
+                                <li class="tahun-pendidikan">2011-2017</li>
+                                <li>SD Negeri Pandeglang 9</li>
+                                <br>
+                                <li class="tahun-pendidikan">2017-2020</li>
+                                <li>SMP Negeri 1 Pandeglang</li>					<br>
+                                <li class="tahun-pendidikan">2020-2023</li>
+                                <li>SMK Negeri 1 Pandeglang</li>
+                            </ul>
+                        </div>
+                    </div>    
+            </section>
+
+            <section class="content-container skill-container" id="skill-sct">
+                <div>
+                    <h1 class="title">Kemampuan</h1>
                 </div>
-            </div>
-            <div class="content-container skill-container" id="skill-sct">
+                <div class="list-skill">
+                    <figure>
+                        <img src="img/programing.jpg" alt="" class="skill-img">
+                        <figcaption>
+                            <span>Programing</span>, menguasai bahasa pemrograman HTML, CSS, Javascript.
+                        </figcaption>
+                    </figure>
+                    <figure>
+                        <img src="img/design.jpg" alt="" class="skill-img">
+                        <figcaption>
+                            <span>Design</span>, mampu membuat design banner, logo, pamflet, dll.
+                        </figcaption>
+                    </figure>
+                    <figure>
+                        <img src="img/microsoft.jpg" alt="" class="skill-img">
+                        <figcaption>
+                            <span>Microsoft</span>, menguasai Ms. Word, Ms. Excel, & Ms. power point.
+                        </figcaption>
+                    </figure>
+                </div>
+            </section>
+            
+            <section class="content-container exp-container" id="exp-sct">
+                <div>
+                <h1 class="title">Pengalaman</h1>
+                </div>
                 <div class="cont-cont">
-                    <h1 class="title">Skill</h1>
-                    <div class="list-skill">
-                        <figure>
-                            <img src="banner.jpeg" alt="" class="skill-img">
-                            <figcaption>
-                                <span>Programing</span>, menguasai bahasa pemrograman HTML, CSS, Javascript.
-                            </figcaption>
-                        </figure>
-                        <figure>
-                            <img src="banner.jpeg" alt="" class="skill-img">
-                            <figcaption>
-                                <span>Design</span>, mampu membuat design banner, logo, pamflet, dll.
-                            </figcaption>
-                        </figure>
-                        <figure>
-                            <img src="banner.jpeg" alt="" class="skill-img">
-                            <figcaption>
-                                <span>Microsoft</span>, menguasai Ms. Word, Ms. Excel, & Ms. power point.
-                            </figcaption>
-                        </figure>
-                    </div>
+                        <p class="p-date">5 Juli 2022 - 20 Desember 2022</p>
+				        <p class="desc-exp">Magang di Sekretariat Daerah Kabupaten Pandeglang</p>
                 </div>
-            </div>
-            <div class="content-container" id="exp-sct">
+            </section>
+
+            <section class="content-container" id="hobby-sct">
                 <div class="cont-cont">
-                    <h1 class="title">Experience</h1>
-                    <p class="p-date">5 Juli 2022 - 20 Desember 2022</p>
-				    <p class="desc-exp">Magang di Sekretariat Daerah Kabupaten Pandeglang</p>
+                    <h1 class="title">Hobi</h1>
                 </div>
-            </div>
-            <div class="content-container" id="hobby-sct">
-                <div class="cont-cont">
-                    <h1 class="title">Hobby</h1>
+                <div class="list-skill">
+                    <figure>
+                        <img src="img/fishing.jpg" alt="" class="skill-img">
+                        <figcaption>
+                            <p>Memancing</p>
+                        </figcaption>
+                    </figure>
+                    <figure>
+                        <img src="img/swimming.jpg" alt="" class="skill-img">
+                        <figcaption>
+                            <p>Berenang</p>
+                        </figcaption>
+                    </figure>
+                    <figure>
+                        <img src="img/programming.jpg" alt="" class="skill-img">
+                        <figcaption>
+                            <p>Programing</p>
+                        </figcaption>
+                    </figure>
                 </div>
-            </div>
-            <div class="content-container contact-container" id="contact-sct">
+            </section>
+
+            <section class="content-container contact-container" id="contact-sct">
                 <div class="cont-cont contact">
-                    <h1 class="title">Contact Us</h1>
+                    <h1 class="title">Contact Me</h1>
                     <div>
                         <label>
                             <a href=""><i class='bx bxs-envelope contact-icon'></i></a>
@@ -138,13 +169,16 @@
                         </label>
                         <label for="">
                             <a href=""><i class='bx bxl-facebook-square contact-icon' ></i></a>
+                            <span>Evan Azhar</span>
                         </label>
                         <label for="">
                             <a href=""><i class='bx bxl-instagram-alt contact-icon' ></i></a>
+                            <span>evanazh</span>
                         </label>
                     </div>
                 </div>
-            </div>
+            </section>
+            
         </main>
         <footer>
             <div class="about">
